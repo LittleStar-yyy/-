@@ -16,18 +16,25 @@
 ## 应用效果
 ### 点击 app 图标进入应用，该应用有三个引导界面；
 <img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/1.png" width="900"/>
+
 ### 点击“开启征途”按钮，进入应用主界面，主界面显示的主要是三国英雄人物列表；
 <img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/2.png" width="300"/>
+
 ### 长按人物列表时，会弹出一个对话框，让你选择是否删除该英雄人物
 <img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/3.png" width="300"/>
+
 ### 点击标题栏的搜索按钮，可以进入搜索界面；
 <img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/4.png" width="300"/>
+
 ### 点击该人物可以进入详细信息界面;
 <img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/5.png" width="300"/>
+
 ### 点击编辑按钮，进入修改界面，在这个界面可以实现在原有的基础上对英雄人物信息的修改；
 <img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/6.png" width="300"/>
+
 ### 同时也可以自己添加英雄人物，点击主界面的“ + ”按钮，进入人物增加界面，如下图所示，人物头像的选择有两种方式，一种是拍照，另一种是相册;
 <img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/7.png" width="300"/>
+
 ### 点击应用主界面工具栏的“ Vs”进入人物 PK 界面
 1. 进入 PK 界面
 <img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/8.png" width="300"/>
