@@ -1,0 +1,28 @@
+﻿<resources>
+    <string name="app_name">TheDictionaryOfSanGuo</string>
+    <string name="title">三国人物信息表</string>
+    <string name="picture">人物头像</string>
+    <string name="name">姓名</string>
+    <string name="time">生卒</string>
+    <string name="save">保存</string>
+    <string name="cancel">取消</string>
+    <string name="introduction">请输入人物简介</string>
+    <string name="place">请输入籍贯信息</string>
+
+    <string name="dying">命不久矣</string>
+    <string name="success">承让了！</string>
+
+    <string name="tip">已有人死亡，无法继续PK</string>
+    <string name="dying_1">发挥失常</string>
+    <string name="dying_2">怀疑人生</string>
+    <string name="dying_3">又输了！！</string>
+    <string name="dying_4">命不久矣</string>
+    <string name="dying_5">黄泉路上</string>
+    <string name="success_1">承让了！</string>
+    <string name="success_2">你个弱鸡</string>
+    <string name="success_3">又赢啦！</string>
+    <string name="success_4">吃嘛嘛香</string>
+    <string name="success_5">本人最帅</string>
+    <string name="let">同归于尽</string>
+
+</resources>

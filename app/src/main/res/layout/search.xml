@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    
+    <RelativeLayout
+        android:id="@+id/search_title"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#abd6ba75"
+        app:layout_constraintTop_toBottomOf="parent"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:layout_marginTop="5dp">
+
+        <ImageButton
+            android:id="@+id/search_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/back"
+            android:layout_marginTop="15dp"
+            android:layout_alignParentLeft="true"
+            />
+
+        <ImageButton
+            android:id="@+id/search_search"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/search"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="10dp"/>
+
+        <EditText
+            android:id="@+id/search_mes"
+            android:layout_width="300dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="40dp"
+            android:theme="@style/MyEditText"
+            android:hint="请输入搜索内容"/>
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@mipmap/delete"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="300dp"
+            />
+
+    </RelativeLayout>
+
+    <!--<android.support.v7.widget.RecyclerView-->
+        <!--android:id="@+id/search_result"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_marginTop="70dp"-->
+        <!--app:layout_constraintRight_toLeftOf="parent"-->
+        <!--app:layout_constraintLeft_toRightOf="parent" />-->
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/search_result"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:background="@mipmap/background"
+        android:layout_marginTop="70dp"
+        app:layout_constraintRight_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent">
+
+        <com.example.lenovo.thedictionaryofsanguo.CircleImageView
+            android:id="@+id/photo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:layout_constraintTop_toBottomOf="parent"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toRightOf="parent"
+            android:layout_marginLeft="20dp"
+            android:src="@mipmap/zhenmi"
+            app:border_color="#ffffff"
+            app:border_width="5dp"/>
+
+        <TextView
+            android:id="@+id/name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="甄宓"
+            android:textSize="18sp"
+            android:textColor="#000000"
+            app:layout_constraintTop_toBottomOf="parent"
+            android:layout_marginTop="20dp"
+            app:layout_constraintLeft_toRightOf="@id/photo"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/sexuality"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="女"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toRightOf="@id/photo"
+            android:layout_marginLeft="10dp"/>
+
+        <TextView
+            android:id="@+id/birthday"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生卒（183 - 221）"
+            android:textSize="14sp"
+            app:layout_constraintTop_toBottomOf="@id/name"
+            android:layout_marginTop="8dp"
+            app:layout_constraintLeft_toRightOf="@id/photo"
+            android:layout_marginLeft="40dp"/>
+
+    </android.support.constraint.ConstraintLayout>
+
+
+</RelativeLayout>

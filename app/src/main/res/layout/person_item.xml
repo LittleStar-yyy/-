@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@mipmap/background"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.example.lenovo.thedictionaryofsanguo.CircleImageView
+        android:id="@+id/photo"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="parent"
+        android:layout_marginLeft="20dp"
+        android:src="@mipmap/bk"
+        app:border_color="#ffffff"
+        app:border_width="5dp"/>
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:text="甄宓"
+        android:textSize="18sp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="parent"
+        android:layout_marginTop="20dp"
+        app:layout_constraintLeft_toRightOf="@id/photo"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/sexuality"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="女"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@id/photo"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/birthday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="生卒（183 - 221）"
+        android:textSize="14sp"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@id/sexuality"
+        android:layout_marginLeft="20dp"/>
+</android.support.constraint.ConstraintLayout>
