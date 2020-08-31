@@ -10,3 +10,4 @@
 ### 英雄 PK 功能
 1. 可以选择自己喜欢的两个英雄任务进行 PK；
 2. 点击 PK 按钮，两个人物开始 PK，此时，我们可以看到人物 PK 的动画效果，也能观察到武力值低的人物的血槽逐渐变空，还能看到对战的两个人物的对话，对话内容是放在气泡动画的效果中，十分形象逼真。
+![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/流程图.png)
