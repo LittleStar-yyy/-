@@ -17,9 +17,9 @@
 ### 点击 app 图标进入应用，该应用有三个引导界面；
 ![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/1.png)
 ### 点击“开启征途”按钮，进入应用主界面，主界面显示的主要是三国英雄人物列表；
-<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/2.png" width="100">
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/2.png" width="300">
 ### 长按人物列表时，会弹出一个对话框，让你选择是否删除该英雄人物
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/3.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/3.png" width="300">
 ### 点击标题栏的搜索按钮，可以进入搜索界面；
 ![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/4.png)
 ### 点击该人物可以进入详细信息界面；
