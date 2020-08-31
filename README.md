@@ -15,27 +15,27 @@
 
 ## 应用效果
 ### 点击 app 图标进入应用，该应用有三个引导界面；
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/1.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/1.png" width="300"/>
 ### 点击“开启征途”按钮，进入应用主界面，主界面显示的主要是三国英雄人物列表；
-<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/2.png" width="300">
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/2.png" width="300"/>
 ### 长按人物列表时，会弹出一个对话框，让你选择是否删除该英雄人物
-<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/3.png" width="300">
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/3.png" width="300"/>
 ### 点击标题栏的搜索按钮，可以进入搜索界面；
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/4.png)
-### 点击该人物可以进入详细信息界面；
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/5.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/4.png" width="300"/>
+### 点击该人物可以进入详细信息界面;
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/5.png" width="300"/>
 ### 点击编辑按钮，进入修改界面，在这个界面可以实现在原有的基础上对英雄人物信息的修改；
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/6.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/6.png" width="300"/>
 ### 同时也可以自己添加英雄人物，点击主界面的“ + ”按钮，进入人物增加界面，如下图所示，人物头像的选择有两种方式，一种是拍照，另一种是相册;
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/7.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/7.png" width="300"/>
 ### 点击应用主界面工具栏的“ Vs”进入人物 PK 界面
 1. 进入 PK 界面
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/8.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/8.png" width="300"/>
 2. 点击“相框”，会跳转到英雄列表界面，选择想要进行 PK 的英雄
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/9.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/9.png" width="300"/>
 3. 选择之后，跳转回 PK 界面，此时选中的英雄信息也会被加载到 PK 界面，包括英雄名字、生命值、武力值以及英雄照片：
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/10.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/10.png" width="300"/>
 4. PK 英雄加载成功后，可以点击“杀”按钮，那么两个英雄会进行一次 PK， PK 的过程是动态的，此时界面会有三个动态过程： 1. 两个英雄图片同时向中间移动，相撞后再返回原位，代表着激烈的厮杀； 2. 武力值弱的英雄会以肉眼可见的缓慢速度逐渐掉血； 3.两个英雄附近会产生绿色气泡，气泡逐渐上升的同时也慢慢变大，并且由透明状态渐渐清晰，气泡中是人物的互动交谈。
-![image](https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/11.png)
+<img src="https://github.com/LittleStar-yyy/SanGuo/blob/master/readme_images/11.png" width="300"/>
 
 
